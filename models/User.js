@@ -8,7 +8,7 @@ const userSchema = mongoose.Schema({
     },
     email:{
         type: String,
-        trem = true,
+        trem: true,
         unique: 1,
     },
     password:{
